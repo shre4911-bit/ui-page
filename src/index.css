@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+*/{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #4C2E05;
+}
+
+.parent{
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container img{
+  width: 150px;
+  height: 250px;
+}
+
+.container{
+  height: 319px;
+  width:325px;
+  margin-top: 50px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.main h2{
+  font-size: 23px;
+}
+
+.part1{
+  background-color: #b1b1b1;
+  border-radius: 5px;
+  height: 30px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.part2{
+  background-color: #b1b1b1;
+  border-radius: 5px;
+  height: 30px;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.part{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.main{
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+.inline{
+  display: flex;
+  gap: 10px;
+  font-size: 23px;
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: 2px solid #b1b1b1;
+  margin-top: 45px;
+}
+
+.pay{
+  margin-left: -10px;
+}
+
+.top img{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-top: 10px;
+  object-fit: cover;
+  border: 2px solid #dadada;
+}
+
+.btn{
+  background-color: #4C2E05;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.save{
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 30px;
+  width: 80px;
+  color: #b1b1b1;
+  border: 1px solid #b1b1b1;
+  border-color: #b1b1b1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+
+}
